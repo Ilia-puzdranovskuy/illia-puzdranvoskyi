@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+}
+.white-text{
+    color: white;
+}
+.black-text{
+    color: #111;
+}
+.bg-coral{
+    background-color: coral;
+}
+.bg-grey{
+    background-color: #525252;
+}
+.border-lightcoral{
+    border-color: lightcoral;
+}
+.fs-1_5em{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.fs-1_3em{
+    font-size: 1.3em;
+}
+

@@ -1,0 +1,438 @@
+html{
+  scroll-behavior: smooth; 
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  overflow: scroll;
+}
+.header-wrap{
+  height: 100%;
+  background: url(../img/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 26% 15%;
+  background-size: 80em;
+  
+}
+.logo-nav{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+}
+.logo{
+  height: 35px;
+  width: 35px;
+  margin: 15px 0;
+}
+nav a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #363636;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0 3px;
+}
+.header-icons{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+.icons-circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color:#0078aa; ;
+  border-radius: 25px;
+}
+.icons-circle svg{
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+}
+.header-content{
+ padding-top: 170px;
+}
+.header-content h2{
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  font-size: 2.8em;
+}
+
+.header-content p{
+  color:#36363666;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.anchor{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color:#0078aa; ;
+  border-radius: 25px;
+}
+.anchor-link{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+.about-img{
+  width: 100%;
+}
+
+.h2-title{
+  font-size: 2.3em;
+  text-align: center;
+  margin: 0;
+}
+
+.section-about-blue-p{
+color:#0078aa;
+} 
+.down-h2-title-text{
+  margin: 5px;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+.blocks-title{
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 5px 0;
+}
+.blocks-title span{
+  font-size: 0.7em;
+  padding: 0 4px;
+  color: #0078aa;
+}
+.blocks-text{
+  font-size: 1em;
+  text-align: center;
+  color: #363636;
+  margin: 0;
+}
+.section-help-wrap{
+  padding: 25px 0 5px 0;
+  background: url(../img/services_bg.jpg);
+  background-color: #0078aa;
+}
+.section-help-block{
+  margin: 25px 15px;
+  padding: 25px;
+  background: #fff;
+}
+.section-help-block p{
+  text-align: start;
+}
+
+.section-prise-wrap{
+  padding: 15px ;
+}
+.offers{
+  padding: 20px 0;
+  color: #fff;
+  margin: 20px 0;
+  background: #47c9e5;
+  text-align: center;
+}
+
+.central-offers{
+  padding: 20px 0;
+  text-align: center;
+  color: #0078aa;
+  border: solid 1px  #0078aa;
+  border-left: solid 2px  #0078aa;
+  border-bottom: solid 2px  #0078aa;
+}
+
+.offer-name{
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.offer-prise{
+  margin: 0;
+  font-size: 4em;
+  font-weight: bold;
+  
+}
+.offer-quality{
+  font-style: italic;
+  font-size: 1.1em;
+}
+.offers-services{
+  margin: 25px;
+  font-size: 0.9em;
+}
+.offers-none{
+  font-size: 1.2em
+}
+.offers-links{
+  display: inline-block;
+  width: 110px;
+  height: 40px;
+  color: #0078aa;
+  line-height: 40px;
+  font-size: 1.1em;
+  font-weight: bold;
+  background: #fff;
+  border: 2px solid #0078aa;
+  border-radius: 10px;
+}
+.section-form-wrap{
+  padding: 20px 30px;
+}
+.contact-img{
+  width: 100%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+form input{
+  padding: 4px 10px;
+  margin: 10px;
+  font-style: italic;
+  font-size: 0.9em;
+  border: none;
+  border-bottom: solid 1px #36363666 ;
+  background: #fff;
+}
+
+form input[type="date"]{
+  border: none;
+}
+button[type="submit"]{
+  width: 90px;
+  height: 35px;
+  margin: 0 auto;
+  line-height: 30px;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: bold;
+  background:#0078aa;
+  border: none;
+  border-radius: 10px;
+}
+footer{
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1em;
+  background-color: #363636;
+}
+.footer-cr{
+  margin: 0;
+}
+a:hover,a:focus,a:active{
+  color: #0078aa;
+}
+.anchor a:hover,.anchor a:focus,.anchor a:active{
+  color: #fff;
+}
+.icons-circle:hover,.icons-circle:focus,.icons-circle:active{
+  background-color: #fff;
+  border: 2px solid #0078aa;
+}
+svg:hover,svg:focus,svg:active{
+  fill: #0078aa;
+}
+button:hover,button:focus,button:active{
+  background-color: #fff;
+  border: 2px solid #0078aa;
+  color: #0078aa;
+}
+.offers-links:hover,.offers-links:focus,.offers-links:active{
+  background-color: #0078aa;
+  color: #fff;
+}
+@media screen and (min-width: 768px){
+  .logo-nav{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo-link,nav{
+    padding: 0 20px;
+  }
+  .header-wrap{
+    background-position: 0% 15%;
+    background-size:145%;
+    height: 500px;
+  }
+  .header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 170px;
+    margin-left: 20px;
+    width: 80%;
+    height: 250px;
+  }
+  .header-content h2,.header-content p{
+    margin: 0;
+    text-align: left;
+  }
+  .header-content p{
+    width: 75%;
+  }
+  .header-icons{
+    width: 30%;
+    justify-content: space-between;
+  }
+  .section-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .about-img{
+    width: 50%;
+    height: 50%;
+    margin: auto 0;
+  }
+  .about{
+    width: 40%;
+    margin: 40px;
+  }
+  .section-about-blocks p, .section-about-blocks .h2-title{
+    text-align: left;
+  }
+  .section-help-wrap .down-h2-title-text,.section-prise-wrap .down-h2-title-text{
+    margin-bottom: 20px;
+  }
+  .section-help-wrap, .section-prise-wrap{
+    padding: 40px 0;
+  }
+  .services-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section-help-block{
+    margin: 10px;
+    padding: 20px;
+    width: 25%;
+  }
+  .section-prise-wrap{
+    background: url(../img/pricing_bg.jpg);
+    background-position: center;
+    background-size: 85em;
+  }
+  .section-specialOffer-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .central-offers,.offers{
+    width: 32%;
+  }
+  .central-offers{
+    background: #fff;
+    padding-top: 40px;
+  }
+  .section-conct-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .section-conct-wrap .h2-title,.section-conct-wrap .down-h2-title-text{
+    text-align: left;
+  }
+  .contact-img{
+    position: absolute;
+    z-index: -1;
+    margin: -50px 0 0 -150px;
+    width:600px;
+  }
+  .section-form-wrap{
+    background-color: #fff;
+    width: 45%;
+  }
+  button[type="submit"]{
+    margin: 0;
+    margin-left: 10px;
+  }
+  form input[type="date"]{
+    border-bottom: solid 1px #36363666 ;
+  }
+  form input[type="email"],form input[list]{
+    border: none;
+  }
+}
+  @media screen and (min-width: 1280px){
+    header{
+      height: 80%;
+    }
+   .header-wrap{
+     background-position: 0 15%;
+     background-size: 100%;
+     height: 630px;
+   }
+   .logo-link{
+     padding: 0;
+    margin-left: 70px;
+   }
+   nav{
+     margin-right: 30px;
+   }
+   .header-content{
+     margin-left: 70px;
+     width: 50%;
+     margin-bottom: 100px;
+   }
+   .about{
+     width: 30%;
+   }
+   .section-help-block{
+    width: 22%;
+   }
+   .central-offers{
+     width: 25%;
+   }
+   .offers{
+     width: 25%;
+   }
+   .section-prise-wrap{
+     background-size: 100%;
+     background-position: 70% 70%;
+   }
+   .contact-img{
+     position: relative;
+     width: 60%;
+     margin: 0;
+   }
+   .section-contact{
+     margin-top: 40px;
+   }
+   .section-prise-wrap .h2-title{
+     margin-top:40px ;
+   }
+    .anchor a:hover,.anchor a:focus,.anchor a:active{
+      color: #0078aa;
+    }
+    .anchor:hover,.anchor:focus,.anchor:active{
+      background-color: #fff;
+      border: 2px solid #0078aa;
+    }
+    form input[type="text"]{
+      border-bottom: solid 1px #36363666 ;
+    }
+  }
